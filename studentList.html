@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="/design/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/design/css/bootstrap.min.css">
+</head>
+
+<body style="background-attachment:fixed; background-size:cover" background="/design/image/3.jpg">
+	<div class="form">
+		<p>LIST OF STUDENT</p>
+		<ul>
+		    {% for student in student_list %}
+		        <li style="color: aqua"><h4>{{student.first_name}} {{student.last_name}} {{student.age}}</h4>
+		        <a href='/student/profile/{{student.key.id()}}'>Student Profile</a></li>
+		    {% endfor %}
+		</ul>
+		<a href="/student/create"><button type="button" class="btn btn-primary">ADD STUDENT</button></a>
+		<a href="/home"><button type="button" class="btn btn-info pull-right">BACK TO HOME PAGE</button></a><br>
+	</div>
+</body>
+</html>

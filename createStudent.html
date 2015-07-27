@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="/design/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/design/css/bootstrap.min.css">
+</head>
+
+<body style="background-attachment:fixed; background-size:cover" background="/design/image/3.jpg">
+<div class="form">
+<p>CREATE STUDENT</p>
+<form action="/student/create" method="post">
+    <div class="section"><span>1</span>Personal Information</div>
+    <div class="inner-wrap">
+        <label>Fisrt Name <input type="text" name="first_name" required></label>
+        <label>Last Name <input type="text" name="last_name" required></label>
+        <label>Age <input type="number" name="age" required></label>
+    </div>
+    <div class="button-section">
+     <button class="btn btn-primary" type="submit">CREATE</button>
+     <a href="/home"><button type="button" class="btn btn-info pull-right">Cancel</button></a>
+    </div>
+</form>
+</div>
+</body>
+</html>
