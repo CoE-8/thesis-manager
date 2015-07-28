@@ -39,7 +39,7 @@ class SuccessPage(webapp2.RequestHandler):
 
 class CreateStudentPage(webapp2.RequestHandler):
     def get(self):
-        template = JINJA_ENVIRONMENT.get_template('CreateStudent.html')
+        template = JINJA_ENVIRONMENT.get_template('createStudent.html')
         self.response.write(template.render())
 
     def post(self):

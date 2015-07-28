@@ -39,37 +39,6 @@
     margin-right: auto;
 }
 
-.login form input[type=text], .login form input[type=password] {
-    width: 240px;
-    font-size: 13px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 30px;
-    border: none;
-    color: #bfbfbf;
-    background: #141414;
-    outline: none;
-    margin: 0;
-}
-
-.login form input[type=text] {
-    display: block;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-top: #6B6B6B solid 1px;
-    border-left: #6B6B6B solid 1px;
-    border-right: #6B6B6B solid 1px;
-    
-}
-
-.login form input[type=password] {
-    display: block;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border: #6B6B6B 1px solid;
-    
-}
-
 .form{
     width:450px;
     padding:30px;
