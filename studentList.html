@@ -16,7 +16,7 @@
 		<p>LIST OF STUDENTS</p>
 		<ul>
 		    {% for student in student_list %}
-		        <li style="color: aqua"><h4>{{student.first_name}} {{student.last_name}}, {{student.age}} Years Old</h4>
+		        <li style="color: aqua"><h4>{{student.first_name}} {{student.last_name}}</h4>
 		        <a href="/student/profile/{{student.key.id()}}"><button type="button" class="btn btn-success">STUDENT PROFILE</button></a>
 			    </li>
 			    <hr style="margin-left: -40px">
